@@ -1,0 +1,6 @@
+task2D () {
+    mkdir $1 
+    touch $1/$2
+   echo "#!/bin/bash" > $1/$2
+    
+} 

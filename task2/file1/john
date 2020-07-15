@@ -1,0 +1,10 @@
+#!/bin/bash
+# Basic If statement 
+
+if [[ -f john ]]
+then 
+mkdir john 2>/dev/null
+
+echo "This directory already exsits"
+fi
+

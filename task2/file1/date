@@ -1,0 +1,11 @@
+#!/bin/bash
+# Basic if statement
+date 
+
+if [ $? == 0 ]
+then
+echo it was a succsess
+else
+echo it was a failure 
+fi
+

@@ -1,0 +1,8 @@
+read -p "What is your name :" name
+echo "Hello $name"
+read -p "Hi what is your age $name :" age 
+echo "I am $age years old"
+read -p "what is the best email I can contact you with $name :" email
+echo "the email is $email"
+echo "$name    $age    $email" >> script_output
+
