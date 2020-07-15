@@ -1,0 +1,6 @@
+#!/bin/bash
+ Saad () {
+     yum install "$1"
+     systemctl start httpd
+     ls "$1"
+ }
